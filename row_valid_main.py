@@ -446,7 +446,7 @@ def generate_test_files():
     
     print("✅ Test files generated successfully!")
     print(f"   📁 input_feed.dat: {len(df)} rows")
-    print(f"   📁 palantir_output.csv: {len(output_df)} rows")
+    print(f"   📁 p_output.csv: {len(output_df)} rows")
     
     return len(missing_indices), 3, len(change_indices) + len(flag_change_indices)
 
